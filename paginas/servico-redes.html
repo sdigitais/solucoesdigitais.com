@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- FONTES-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="service-manutencao-header">
+
+        <nav>
+            <a href="index.html"><img src="/images/logo.PNG" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/index.html">INICIO</a></li>
+                    <li><a href="/paginas/about.html">ACERCA</a></li>
+                    <li><a href="/paginas/contacto.html">CONTACTOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Implantação e Manutenção de Rede de Computadores</h1>
+    </section>
+
+    <!---COnteudo Redes-->
+
+    <section class="manutencao-nos">
+
+        <div class="coluna">
+
+            <div class="servico-col">
+                <h4>Preços (MZN)</h4>
+                <div>
+                    <span>Instalação de windows e aplicativos</span>
+                    <span>2.500,00 MT</span>
+                </div>
+                <hr />
+                <div>
+                    <span>Instalação de antivirus</span>
+                    <span>700,00 MT</span>
+                </div>
+                <hr />
+            </div>
+
+    </section>
+
+    <!---RODAPE-->
+
+    <section class="footer">
+        <h5>Nossas redes sociais</h5>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p>Solucoes Digitais, Lda</p>
+
+    </section>
+
+    <!--Mostrando e escondendo o menu com JAVASCRIPT Toogle-->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
